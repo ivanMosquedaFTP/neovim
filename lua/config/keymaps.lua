@@ -7,3 +7,6 @@ vim.keymap.set("n", "<leader>cx", "<cmd>close<CR>", { desc = "Close tab" })
 
 -- oil.nvim
 vim.keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory on floating window" })
+
+-- transparent.nvim
+vim.keymap.set("n", "<leader>ut", "<CMD>TransparentToggle<CR>", { desc = "Toggle transparency" })
